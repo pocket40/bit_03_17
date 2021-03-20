@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 355, 257
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "수정",IDC_BUTTON_MODIFY,77,236,50,14
+    EDITTEXT        IDC_EDIT_ID,47,7,84,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,48,34,84,23,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,7,7,25,17
+    LTEXT           "나이",IDC_STATIC,7,63,26,16
+    LTEXT           "[AGE]",AGE,33,95,20,8
+    CONTROL         "남",IDC_RADIO_MALE,"Button",BS_AUTORADIOBUTTON,19,128,23,10
+    CONTROL         "여",IDC_RADIO_FEMALE,"Button",BS_AUTORADIOBUTTON,61,129,23,10
+    CONTROL         "흡연",IDC_CHECK_SMOKE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,160,27,13
+    CONTROL         "음주",IDC_CHECK_DRINK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,158,27,17
+    LISTBOX         IDC_LIST_MEMBER,199,36,149,175,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "삭제",IDC_BUTTON_REMOVE,160,236,50,14
+    PUSHBUTTON      "조회",IDC_BUTTON_FIND,132,7,50,14
+    LTEXT           "회원목록",IDC_STATIC,272,15,30,11
+    PUSHBUTTON      "추가",IDC_BUTTON_ADD,7,236,50,14
+    CONTROL         "",IDC_STATIC_AGE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,39,62,100,15
+    LTEXT           "이름:",IDC_STATIC,7,41,18,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 348
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
